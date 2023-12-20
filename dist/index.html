@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png"/>
+    <title>Frontend Mentor | 3-column preview card component</title>
+    <link rel="stylesheet" href="output.css" />
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+
+  <body class="bg-veryLightGray">
+    <!-- Main Container -->
+    <div class="flex justify-center mt-24">
+      <div class="grid grid-cols-1 md:grid-cols-3 w-5/6 md:w-2/3">
+        <!-- First Card -->
+        <div class="bg-orange px-10 rounded-t-lg md:rounded-none md:rounded-l-lg h-cardHeight">
+          <img class="pt-12" src="../images/icon-sedans.svg" alt="sedans"/>
+          <div class="flex-grow">
+            <div class="uppercase font-header text-5xl my-8 text-veryLightGray">Sedans</div>
+            <div class="font-body text-15px text-transparentWhite">
+              Choose a sedan for its affordability and excellent fuel economy.
+              Ideal for cruising in the city or on your next road trip.
+            </div>
+          </div>
+          <div class="text-orange bg-veryLightGray flex justify-end mt-20 w-fit px-10 py-4 rounded-full"> 
+            <button type="button">Learn More</button>
+          </div>
+        </div>
+
+        <!-- Second Card -->
+        <div class="bg-cyan px-12 h-cardHeight">
+          <img class="pt-12" src="../images/icon-suvs.svg" alt="sedans"/>
+          <div>
+            <div class="uppercase font-header text-5xl my-8 text-veryLightGray">Suvs</div>
+            <div class="font-body text-15px text-transparentWhite">
+              Take an SUV for its spacious interior, power, and versatility. Perfect for your next family vacation 
+              and off-road adventures.
+            </div>
+          </div>
+          <div class="text-cyan bg-veryLightGray flex justify-end mt-custom w-fit px-10 py-4 rounded-full"> 
+            <button type="button">Learn More</button>
+          </div>
+        </div>
+      
+        <!-- Third Card -->
+        <div class="bg-darkCyan px-12 rounded-b-lg md:rounded-none md:rounded-r-lg mb-24 h-cardHeight">
+          <img class="pt-12" src="../images/icon-luxury.svg" alt="sedans"/>
+          <div>
+            <div class="uppercase font-header text-5xl my-8 text-veryLightGray">Luxury</div>
+            <div class="font-body text-15px text-transparentWhite">
+              Cruise in the best car brands without the bloated prices. 
+              Enjoy the enhanced comfort of a luxury rental and arrive in style.
+            </div>
+          </div>
+          <div class="text-darkCyan bg-veryLightGray flex justify-end mt-20 w-fit px-10 py-4 rounded-full"> 
+            <button type="button">Learn More</button>
+          </div>
+        </div>
+
+          
+      </div>
+    </div>
+
+    <!-- Attributions -->
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>
+      . Coded by <a href="#">Kylie</a>.
+    </div>
+  </body>
+</html>
