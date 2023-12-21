@@ -14,8 +14,8 @@ This is a solution to the [3-column preview card component challenge on Frontend
 ## Overview
 ### Screenshot
 ![Screenshot of Desktop View](images/desktop_view.png)
-![Screenshot of Mobile View](images/mobile_view.png)
 
+<img src="images/mobile_view.png" alt="mobile view" width="400">
 
 ### Links
 - Live Site URL: [https://kylie-kiaying.github.io/3-column-preview-frontend-mentor/](https://kylie-kiaying.github.io/3-column-preview-frontend-mentor/)
